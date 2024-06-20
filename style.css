@@ -1,0 +1,129 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: black;
+    padding: 11.0rem 16.0rem;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#search {
+    width: 45rem;
+    height: 5rem;
+
+    padding: 1.5rem;
+    background: #06181C;
+    color: white;
+    border: 1px solid #06181C ;
+}
+
+button {
+    width: 15rem;
+    height: 5rem;
+    border: 1px solid #06181C ;
+    background: #065E7C;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+
+    padding: 1rem 3rem ;
+    gap: 0.8rem;
+    
+
+}
+
+button p {
+    font-weight: bold;
+    color: white;
+}
+
+.input-search {
+    display: flex;
+    gap: 1rem;
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    box-shadow: 0 1rem 2rem -1rem rgba(0,0,0,0.2);
+
+    margin-top: 9.0rem;
+}
+
+table * {
+    font-size: 1.4rem;
+    color: white;
+
+    
+
+
+}
+
+table th {
+    background: #092D38;
+    text-align: left;
+    height: 7rem;
+    
+}
+
+table th {
+    padding-left: 4.0rem;
+}
+
+
+table th:first-child {
+    border-top-left-radius: 0.4rem;
+}
+
+table th:last-child{
+    border-top-right-radius: 0.4rem;
+}
+
+tbody img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+
+   
+}
+
+table td {
+    padding: 2.4rem 0 2.4rem 4.0rem;
+    background: #06161B;
+}
+td.user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+td.user a{
+    text-decoration: none;
+}
+
+td.user a p {
+    font-weight: bold;
+}
+
+td.action {
+    color: red;
+    cursor: pointer;
+}
