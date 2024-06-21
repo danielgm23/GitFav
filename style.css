@@ -54,7 +54,7 @@ button p {
     color: white;
 }
 
-.input-search {
+.search {
     display: flex;
     gap: 1rem;
    
@@ -124,6 +124,11 @@ td.user a p {
 }
 
 td.action {
+    color: red;
+    cursor: pointer;
+}
+
+.remove {
     color: red;
     cursor: pointer;
 }
